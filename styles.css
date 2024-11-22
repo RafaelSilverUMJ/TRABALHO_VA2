@@ -1,0 +1,166 @@
+body{
+    background: linear-gradient(to right, #c6a6eb, #9b46e4);
+    font-family: "Roboto", sans-serif;
+}
+
+
+#div-form{
+    width: 50%;
+    border: 1px solid none;
+    background-color: rgba(210, 181, 218, 0.307);
+    border-radius: 0px 10px 10px 0px;
+    
+}
+
+#login-img{
+    position: relative;
+    left: 209px;
+    top: 30px;
+    align-items: center;
+    height: 100px;
+    width: auto;
+    
+}
+
+#titulo-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 50%;
+    background-color: rgba(252, 240, 255, 0.362); 
+    color: #3F076C;
+    border-radius: 10px;
+    border-radius: 10px 0px 0px 10px;
+    
+    
+}
+
+#titulo-form h1,h3{
+    margin-left: 30px ;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid none;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    background-color: #eacfff00;
+    border-radius: 10px;
+    
+    
+}
+
+#form button{
+    margin: 20px;
+    width: 90%;
+    height: 30px;
+    background-color: #4C006F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#form button:hover{
+    transform:scale(1.05);
+    transition: 0.2s;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: auto;
+    padding: 50px;
+    
+}
+
+
+
+label{
+    margin-top: 25px;
+    color: #3F076C;
+    
+}
+
+input{
+    border: solid 2px;
+    border-radius:5px;
+    width: 100%;
+    height: 30px;
+    border-color: #3F076C;
+    
+}
+
+input:hover{
+    transform:scale(1.05);
+    transition: 0.2s;
+}
+
+/*TABELA*/
+
+#div-tabela table {
+    width: 100%; 
+}
+
+table,td,th{
+    border: 1px solid black;
+}
+
+
+table{
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+td{
+    text-align: center;
+    padding: 5px ;
+}
+
+th{
+    padding: 8px 10px;
+}
+
+#div-tabela {
+    display: flex;
+    max-height: 204px;
+    overflow-y: auto;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+
+table button{
+    display: flex;
+    margin: auto;
+    background-color: red;
+    padding: 2px 7px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+table button:hover{
+    transform:scale(1.05);
+    transition: 0.2s;
+}
+
+thead th{
+    position: sticky;
+    top: 0;
+    background-color: #4C006F ;
+    color: white;
+    
+}
+
+tr:nth-child(odd) {
+    background-color: #f199f7;
+}
+
