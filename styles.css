@@ -13,13 +13,10 @@ body{
 }
 
 #login-img{
-    position: relative;
-    left: 209px;
-    top: 30px;
-    align-items: center;
+    display: flex;
+    margin: auto;
     height: 100px;
-    width: auto;
-    
+    margin-top: 40px; 
 }
 
 #titulo-form{
